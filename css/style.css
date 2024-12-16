@@ -9,15 +9,35 @@
     --filter-bg-color: #DEEBFF;
 }
 
+/****** Première en-tête avec le logo et hébergements-Activités*********/
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar a:first-child{
+    margin-right: 40px;
+}
+
+#logo-bookie{
+    height: 25px;
+    width: 50px;
+}
+
+/**/
 .fa-solid {
     color: var(--main-color);
 }
 
+/**/
 body {
     display: flex;
     justify-content: center;
 }
+/**/
 
+
+/**/
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -25,11 +45,15 @@ body {
     box-sizing: border-box;
 }
 
+/* Styles des liens */
 a {
     color: inherit;
     text-decoration: none;
 }
-
+a:hover{
+    color: var(--main-color);
+    border-top: 3px var(--main-color) solid;
+}
 .section-title {
     margin: 0;
     font-size: 22px;
