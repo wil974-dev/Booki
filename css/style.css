@@ -9,8 +9,21 @@
     --filter-bg-color: #DEEBFF;
 }
 
+h1{
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+h2{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
 /****** Première en-tête avec le logo et hébergements-Activités*********/
 .logo-nav{
+    height: 79px;
     display: flex;
     justify-content: space-between;
 }
@@ -19,20 +32,94 @@
     margin-right: 40px;
 }
 
-#logo-bookie{
-    height: 25px;
-    width: 50px;
+.navigation-bar{
+    width: 244px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.navigation-bar a{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    align-items: center;
+    
+}
+
+#logo-bookie{
+    height: 19px;
+    width: 61.09px;
+    
+}
+.logo-container{
+    /*width: 161.09px;
+    height: 79px;*/
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+/********Barre de recherche *********/
+.search-bar-element{
+    display: flex;
+    border: none;
+}
+
+.search-bar-element input{
+    border: none;
+}
+
+.search-bar-label{
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0px 0px 15px;
+    height: 49px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-input{
+    border-top: 1px var(--main-bg-color) solid;
+    border-bottom: 1px var(--main-bg-color) solid;
+}
+
+.search-bar-input input{
+    text-align: center;
+    height: 45px;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 21.13px;
+}
+
+.search-bar-button input{
+    background-color: var(--main-color);
+    color: #F2F2F2;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    height: 49px;
+    width: 132px;
+    font-weight: 700;
+    size: 18px;
+    line-height: 21.13px;
+}
+
 
 /**/
 .fa-solid {
-    color: var(--main-color);
+    color: black;
+    width: 14px;
+    height: 18px;
 }
 
 /**/
 body {
     display: flex;
     justify-content: center;
+    /*margin: 0px;*/
+
 }
 /**/
 
