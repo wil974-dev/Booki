@@ -20,8 +20,6 @@
 body {
     display: flex;
     justify-content: center;
-    /*margin: 0px;*/
-
 }
 
 a {
@@ -33,17 +31,13 @@ a {
 /*#region Première en-tête avec le logo et hébergements-Activités*/
 
 .logo-nav{
-    height: 79px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
 }
 
-.navigation-bar a:first-child{
-    margin-right: 40px;
-}
-
 .navigation-bar{
-    width: 244px;
+    width: 20%;
     height: 35px;
     display: flex;
     justify-content: space-between;
@@ -94,6 +88,10 @@ a {
 
 /*#region Barre de recherche */
 
+.search-bar form{
+    width: 25%;
+}
+
 .logo-localisation{
     color: black;
     width: 14px;
@@ -104,17 +102,14 @@ a {
     display: flex;
     justify-content: flex-start;
     border: none;
-}
-
-.search-bar-button{
-    border: none;
+    height: 50px;
 }
 
 .search-bar label{
     background-color: var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
-    height: 49px;
-    width: 50px;
+    /*height: 49px;*/
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +121,8 @@ a {
     border-right: none;
     border-left: none;
     text-align: center;
-    height: 45px;
+    /*height: 45px;*/
+    width: 50%;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
@@ -137,9 +133,8 @@ a {
     color: #F2F2F2;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    height: 49px;
-    width: 132px;/*Bcp trop grand comme valeur*/
-    font-weight: 700;
+    /*height: 49px;*/
+    font-weight: 600;
     font-size: 18px;
     line-height: 20px;
 }
@@ -150,12 +145,13 @@ a {
 
 .filter{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 55%;
     margin-top: 25px;
+    height: 50px;
 }
 
-.filter div{
+.filter-button div{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -163,7 +159,11 @@ a {
     border-radius: 50px;
     /*background-color: turquoise;*/
 }
-
+.filter-button{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 .logo-filter{
     color: var(--main-color);
     margin-left: 20px;
@@ -277,10 +277,13 @@ a {
     display: flex;
     flex-direction:column;
     height: 200px; 
+    width: 230px;
+    margin-top: 33px;
+
 }
 
 .hebergements-cards img {
-    height: 50%;
+    height: 55%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -306,15 +309,17 @@ a {
     margin-top: 10px; 
 }
 
-.hebergements-cards a {
+/*.hebergements-cards a {
     margin-top: 33px;
     display: block;
     width: 30%;
-}
+}*/
 
 .show-more {
+    display: block;
     margin-top: 33px;
     font-weight: 700;
+    width: 100px;
 }
 
 /*#endregion*/
@@ -365,7 +370,33 @@ a {
 }
 /*#endregion*/
 
+/*#region Activitées*/
 
+.activities-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities-cards a{
+    display: block;
+    width: 23%;
+}
+
+.activities-cards img{
+    height: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;        
+}
+
+.activities-cards .card{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+
+
+/*#endregion*/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
