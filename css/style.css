@@ -160,6 +160,7 @@ a {
     border: none;
     width: 15%;
     display: none;
+    margin-left: -10px; /* décalage du boutton pour le coller au bordure de l'input. */
 }
 
 .magnifying-glass i{
