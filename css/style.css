@@ -13,6 +13,7 @@
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -154,7 +155,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    color: var(--main-color);
     border-radius: 15px 15px 15px 15px;
     filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.3));
     border: none;
@@ -174,7 +174,7 @@ a {
 .filter{
     display: flex;
     justify-content: flex-start;
-    width: 55%;
+    width: 65%;
     margin-top: 25px;
     height: 50px;
 }
@@ -312,7 +312,7 @@ a {
 }
 
 .hebergements-title{
-    margin: 20px 0px;
+    margin: 0 0 10px 0;
 }
 /*#endregion*/
 
@@ -571,7 +571,7 @@ a {
 
     .filter{
         width: auto;
-        margin: 0 15px 0 15px;
+        margin: 20px 15px 0 15px;
     }
 
     .filter-button div{
@@ -606,7 +606,7 @@ a {
     .blue-border{
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid var(--filter-bg-color);
+        border-bottom: 2px solid var(--filter-bg-color);
     }
 
     .blue-border:hover{
@@ -655,7 +655,7 @@ a {
     }
 
     #hebergements {
-        background-color: white;/*Il y a t'il une priorité pour le choix de la couleur à appliquer ?*/
+        background-color: white;
     }
 
     .activities-cards{
