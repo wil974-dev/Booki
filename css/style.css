@@ -29,7 +29,7 @@
 body {
     display: flex;
     justify-content: center;
-    
+    margin: 0;
 }
 
 a {
@@ -410,7 +410,7 @@ a {
     display: flex;
 }
 
-.footer section{
+.footer div{
     width: 33%;
     line-height: 2.5;
     margin: 15px;
@@ -672,7 +672,7 @@ a {
         flex-direction: column;
     }
 
-    .footer section{
+    .footer div{
         width: auto;
     }
 }
