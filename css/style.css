@@ -40,7 +40,7 @@ a {
 
 /*#endregion*/
 
-/*#region Première en-tête avec le logo et les liens hébergements-Activités*/
+/*#region navigation*/
 
 .logo-nav{
     height: 80px;
@@ -60,8 +60,6 @@ a {
     padding-top: 16px;
     font-weight: 400;
     font-size: 16px;
-    align-items: center;
-    
 }
 
 #logo-booki{
@@ -100,7 +98,7 @@ a {
 
 /*#endregion*/
 
-/*#region Barre de recherche */
+/*#region Search bar */
 
 .search-bar form{
     width: 27%;
@@ -171,7 +169,7 @@ a {
 
 /*#endregion*/
 
-/*#region Filtres */
+/*#region Filters */
 
 .filter{
     display: flex;
@@ -244,6 +242,8 @@ a {
 
 /*  */
 
+/*#region general card */
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -268,6 +268,7 @@ a {
     font-weight: 700;
 }
 
+/*#endregion*/
 
 
 /*#region accomodations and popular */
@@ -295,7 +296,7 @@ a {
 .accomodations-cards a{
     width: 30%;
     padding: 5px;
-    margin: 15px 0px;
+    margin: 15px 0;
     
 }
 
@@ -309,7 +310,7 @@ a {
 .accomodations-cards .card img{
     width: 100%;
     height: 120px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
 }
 
 .accomodations-title{
@@ -317,7 +318,7 @@ a {
 }
 /*#endregion*/
 
-/*#region Populaires */
+/*#region Popular */
 .popular {
     width: 32%;
 }
@@ -363,7 +364,7 @@ a {
 }
 /*#endregion*/
 
-/*#region Activitées*/
+/*#region Activitier*/
 
 .marseille-activities{
     margin: 30px;
@@ -398,7 +399,7 @@ a {
 }
 
 .activities-cards .card-title{
-    margin: 0 0 0 15px; /* haut,bas,droite et gauche */
+    margin: 0 0 0 15px;
 }
 
 /*#endregion*/
@@ -447,7 +448,7 @@ a {
         width: 30%;
     }
 
-    /*#region Filtre responsive*/
+    /*#region Filter*/
     
     .filter{
         flex-direction: column;
@@ -471,7 +472,7 @@ a {
         width: 100%;
     }
 
-    /*#region Activitées*/
+    /*#region Activities*/
 
     .activities-cards .card{
         height: 270px;
@@ -482,12 +483,12 @@ a {
     }
 
     .activities-cards img{
-        height: 75%
+        height: 75%;
     }
 
     /*#endregion*/
 
-    /*#region populaire */
+    /*#region popular */
 
     .popular {
         width: 100%;
@@ -526,15 +527,11 @@ a {
         padding-bottom: 16px;
     }
 
+    /*#region search bar */
+
     .magnifying-glass{
         display: block;
     }
-
-    body{
-        margin: 0;
-    }
-
-    /*#region search bar */
 
     .search-bar{
         margin: 0 15px 0 15px;
@@ -627,12 +624,10 @@ a {
     }
 
     .accomodations-and-popular{
-        flex-direction: row;
-        flex-wrap: wrap-reverse;
-
+        flex-direction: column-reverse;
     }
 
-    /*#region Populaires*/
+    /*#region Popular*/
     .popular-cards a{
         width: 100%;
     }
@@ -642,6 +637,8 @@ a {
     }
 
     /*#endregion*/
+
+    /*#region accomodations*/
 
     .accomodations-cards a{
         width: 100%;
@@ -658,6 +655,8 @@ a {
     #accomodations {
         background-color: white;
     }
+
+    /*#endregion*/
 
     .activities-cards{
         flex-direction: column;
