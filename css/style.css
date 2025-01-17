@@ -64,8 +64,7 @@ a {
 
 #logo-booki{
     height: 20px;
-    width: 60px;
-    
+    width: 60px;   
 }
 
 .logo-container{
@@ -73,6 +72,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 
 .blue-border:hover{
     color: var(--main-color);
@@ -155,7 +155,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.3));
     border: none;
     width: 15%;
@@ -256,6 +256,7 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
+
 .card img {
     object-fit: cover;
 }
@@ -305,11 +306,35 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.accomodations h3{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.accomodations p{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.accomodations .card-content{
+    margin-left: 8px;
+}
+
+.accomodations .card-rating{
+    margin-bottom: 5px;
+}
+
+.show-more{
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .accomodations-cards .card img{
     width: 100%;
-    height: 120px;
+    height: 110px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -364,7 +389,7 @@ a {
 }
 /*#endregion*/
 
-/*#region Activitier*/
+/*#region Activities*/
 
 .marseille-activities{
     margin: 30px;
@@ -475,7 +500,7 @@ a {
     /*#region Activities*/
 
     .activities-cards .card{
-        height: 270px;
+        height: 190px;
     }
 
     .activities-cards .card-content{
@@ -600,7 +625,7 @@ a {
     .navigation-bar{
         width: 100%;
     }
-
+    
     .blue-border{
         width: 100%;
         text-align: center;
